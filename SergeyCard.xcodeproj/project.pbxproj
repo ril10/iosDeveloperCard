@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100722C126306AC400C9E398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100722C026306AC400C9E398 /* Assets.xcassets */; };
 		10474A8124C0864B00A78D5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10474A8024C0864B00A78D5F /* AppDelegate.swift */; };
 		10474A8324C0864B00A78D5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10474A8224C0864B00A78D5F /* SceneDelegate.swift */; };
 		10474A8524C0864B00A78D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10474A8424C0864B00A78D5F /* ContentView.swift */; };
-		10474A8724C0864D00A78D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10474A8624C0864D00A78D5F /* Assets.xcassets */; };
 		10474A8A24C0864D00A78D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10474A8924C0864D00A78D5F /* Preview Assets.xcassets */; };
 		10474A8D24C0864D00A78D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10474A8B24C0864D00A78D5F /* LaunchScreen.storyboard */; };
+		10474A9624C08EE100A78D5F /* BalooDa2-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10474A9524C08EE100A78D5F /* BalooDa2-Regular.ttf */; };
+		10474A9824C0B07300A78D5F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10474A9724C0B07300A78D5F /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100722C026306AC400C9E398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10474A7D24C0864B00A78D5F /* SergeyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SergeyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10474A8024C0864B00A78D5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10474A8224C0864B00A78D5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		10474A8424C0864B00A78D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		10474A8624C0864D00A78D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10474A8924C0864D00A78D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10474A8C24C0864D00A78D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10474A8E24C0864D00A78D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10474A9524C08EE100A78D5F /* BalooDa2-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BalooDa2-Regular.ttf"; sourceTree = "<group>"; };
+		10474A9724C0B07300A78D5F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		10474A7F24C0864B00A78D5F /* SergeyCard */ = {
 			isa = PBXGroup;
 			children = (
+				10474A9424C08EB100A78D5F /* Fonts */,
 				10474A8024C0864B00A78D5F /* AppDelegate.swift */,
 				10474A8224C0864B00A78D5F /* SceneDelegate.swift */,
 				10474A8424C0864B00A78D5F /* ContentView.swift */,
-				10474A8624C0864D00A78D5F /* Assets.xcassets */,
+				100722C026306AC400C9E398 /* Assets.xcassets */,
+				10474A9724C0B07300A78D5F /* InfoView.swift */,
 				10474A8B24C0864D00A78D5F /* LaunchScreen.storyboard */,
 				10474A8E24C0864D00A78D5F /* Info.plist */,
 				10474A8824C0864D00A78D5F /* Preview Content */,
@@ -73,6 +79,14 @@
 				10474A8924C0864D00A78D5F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10474A9424C08EB100A78D5F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				10474A9524C08EE100A78D5F /* BalooDa2-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +149,8 @@
 			files = (
 				10474A8D24C0864D00A78D5F /* LaunchScreen.storyboard in Resources */,
 				10474A8A24C0864D00A78D5F /* Preview Assets.xcassets in Resources */,
-				10474A8724C0864D00A78D5F /* Assets.xcassets in Resources */,
+				100722C126306AC400C9E398 /* Assets.xcassets in Resources */,
+				10474A9624C08EE100A78D5F /* BalooDa2-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10474A9824C0B07300A78D5F /* InfoView.swift in Sources */,
 				10474A8124C0864B00A78D5F /* AppDelegate.swift in Sources */,
 				10474A8324C0864B00A78D5F /* SceneDelegate.swift in Sources */,
 				10474A8524C0864B00A78D5F /* ContentView.swift in Sources */,
