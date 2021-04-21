@@ -33,8 +33,8 @@ struct ContentView: View {
                 Divider()
                 InfoView(text: "+375298018000", icon: "phone.fill")
                 InfoView(text: "jlamep7@gmail.com", icon: "envelope.fill")
-                CustomImageView(text: "https://github.com/ril10", icon: #imageLiteral(resourceName: "GitHub-Mark-32px"))
-                CustomImageView(text: "https://www.instagram.com/luk_sergey/", icon: #imageLiteral(resourceName: "instagram"))
+                CustomImageView(text: "https://github.com/ril10", image: #imageLiteral(resourceName: "GitHub-Mark-32px"))
+                CustomImageView(text: "https://www.instagram.com/luk_sergey/", image: #imageLiteral(resourceName: "instagram"))
                 
                         
                 
